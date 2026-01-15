@@ -14,7 +14,7 @@ height: 35px;
 .navbar-right {
   list-style: none;
   display: flex;
-  gap: 2.3em;
+  gap: 5em;
   margin: 0;
   padding: 0;
 }
