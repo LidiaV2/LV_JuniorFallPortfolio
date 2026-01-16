@@ -40,7 +40,7 @@
   margin-right: inherit;
 }
 
-/* Scetion */
+/* Home Scetion */
 .home-card {
   max-width: 1200px;
   margin: 2em auto;
@@ -83,4 +83,40 @@
 }
 
 
+/*Project Section*/
+.project {
+  display: flex;
+  gap: 1.5em;
+  align-items: flex-start;
+}
+
+.project iframe {
+  flex: 2;
+  min-width: 320px;
+  height: 450px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+}
+
+.reflection {
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.03);
+  padding: 1em;
+  border-radius: 8px;
+}
+
+.reflection h3 {
+  margin-top: 0;
+  color: #aaaaff;
+}
+
+.reflection p {
+  font-size: 0.95em;
+  color: #dddddd;
+}
+
+.bg {
+  border: 7px solid rgb(53, 36, 59);
+}
 
