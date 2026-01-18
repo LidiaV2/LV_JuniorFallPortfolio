@@ -120,3 +120,48 @@
   border: 7px solid rgb(53, 36, 59);
 }
 
+
+/*Contacts Section */
+
+.skill-images {
+  display:flex;
+  justify-content:center;
+  gap: 1.5em;
+  margin-top: 1em;
+}
+
+.picture {
+  transition: transform 0.2s ease;
+}
+
+.picture:hover {
+  transform: scale(1.05);
+}
+
+.link-pic {
+  height: 40px;
+  width: 40px;
+  border-radius: 9px;
+  border: 2px solid rgba(255, 255, 255, 0.45);
+  object-fit: cover;
+  border: 3px solid rgb(53, 36, 59);
+}
+
+.contact-card {
+  background-color: rgb(87, 62, 96);
+  margin: 1em auto;
+  padding: .25em ;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.45);
+}
+
+
+/*footer*/
+footer {
+  text-align: center;
+  font-size: 0.85em;
+  color: rgba(204, 204, 204, 0.57);
+}
+
+
+
